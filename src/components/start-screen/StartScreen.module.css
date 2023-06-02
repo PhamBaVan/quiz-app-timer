@@ -1,0 +1,12 @@
+.startBtn{
+    background-color: rgb(110, 231, 183);
+    width: 180px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+.startBtn:hover{
+    outline: none;
+    /* border: none; */
+}

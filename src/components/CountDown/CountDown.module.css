@@ -1,0 +1,23 @@
+.circleProgress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 0 2px grey);
+}
+
+.countdown__box {
+    position: absolute;
+    top: -50%;
+    right: 50%;
+    transform: translate(50%, 40%);
+}
+
+.countdown__box h2 {
+    position: absolute;
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+}

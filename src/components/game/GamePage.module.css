@@ -1,0 +1,60 @@
+.actions{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.content{
+    position: relative;
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.answer_item{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.statusQuestion{
+    margin-top: 60px;
+}
+.selected{
+    background-color: rgb(49, 46, 129);
+    color: white;
+}
+.answer_item:hover{
+    background-color: rgb(49, 46, 129);
+    color: white;
+    cursor: pointer;
+}
+.gamePage_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nextBtn{
+    background-color: rgb(110, 231, 183);
+    border: none;
+}
+.nextBtn:hover{
+    outline: none;
+}
+.showPrevBtn{
+    background-color: rgb(107, 114, 128);
+    color: white;
+}
+.hidePrevBtn{
+    background-color: rgb(229, 231, 235);
+    pointer-events: none;
+}
+.submitBtn{
+    background-color: rgb(245, 158, 11);
+    color: white;
+}

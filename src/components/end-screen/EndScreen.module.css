@@ -1,0 +1,12 @@
+.containerBtnEndScreen{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+.tryAgainBtn{
+    background-color: rgb(110, 231, 183);
+}
+.reviewBtn{
+    background-color: rgb(239, 68, 68);
+    color: white;
+}

@@ -1,0 +1,53 @@
+.hidePrevBtn{
+    background-color: rgb(229, 231, 235);
+    pointer-events: none;
+}
+.showPrevBtn{
+    background-color: rgb(107, 114, 128);
+    color: white;
+}
+.restartBtn{
+    background-color: rgb(245, 158, 11);
+    color: white;
+}
+.nextQuestion{
+    background-color: rgb(110, 231, 183);
+    border: none;
+}
+.wrongAnswer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+}
+.rightAnswer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+}
+.reviewQuestion_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.actionsReview{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.answer_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
